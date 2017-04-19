@@ -1,0 +1,13 @@
+.\obj\i2chandler.o: src\PlatformHandler\i2cHandler.c
+.\obj\i2chandler.o: src\PlatformHandler\i2cHandler.h
+.\obj\i2chandler.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\i2chandler.o: ..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h
+.\obj\i2chandler.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h
+.\obj\i2chandler.o: ..\..\Libraries\CMSIS\Include\core_cm0.h
+.\obj\i2chandler.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\obj\i2chandler.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\obj\i2chandler.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h
+.\obj\i2chandler.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h
+.\obj\i2chandler.o: src\PlatformHandler\eepromHandler.h
+.\obj\i2chandler.o: .\src\W7500x_board.h
+.\obj\i2chandler.o: .\src\common.h

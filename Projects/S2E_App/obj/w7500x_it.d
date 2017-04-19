@@ -1,0 +1,15 @@
+.\obj\w7500x_it.o: src\W7500x_it.c
+.\obj\w7500x_it.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h
+.\obj\w7500x_it.o: ..\..\Libraries\CMSIS\Include\core_cm0.h
+.\obj\w7500x_it.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\w7500x_it.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\obj\w7500x_it.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\obj\w7500x_it.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h
+.\obj\w7500x_it.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h
+.\obj\w7500x_it.o: src\common.h
+.\obj\w7500x_it.o: src\W7500x_board.h
+.\obj\w7500x_it.o: .\src\PlatformHandler\timerHandler.h
+.\obj\w7500x_it.o: .\src\PlatformHandler\uartHandler.h
+.\obj\w7500x_it.o: ..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h
+.\obj\w7500x_it.o: .\src\Configuration\ConfigData.h
+.\obj\w7500x_it.o: ..\..\ioLibrary\Ethernet\wizchip_conf.h

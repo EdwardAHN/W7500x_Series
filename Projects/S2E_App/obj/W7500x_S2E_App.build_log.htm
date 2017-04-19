@@ -1,0 +1,183 @@
+<html>
+<body>
+<pre>
+<h1>킮ision Build Log</h1>
+<h2>Project:</h2>
+D:\Wiznet\WIZnet_product\WIZ750JR\Firmware\W7500x_Project_dev_WIZ750Jr_20160215_v3\Projects\S2E_App\W7500x_S2E.uvproj
+Project File Date:  04/26/2016
+
+<h2>Output:</h2>
+Rebuild target 'W7500x_S2E_App'
+assembling startup_W7500x.s...
+compiling system_W7500x.c...
+compiling W7500x_adc.c...
+compiling W7500x_dualtimer.c...
+compiling W7500x_exti.c...
+compiling W7500x_gpio.c...
+compiling W7500x_pwm.c...
+compiling W7500x_ssp.c...
+compiling W7500x_uart.c...
+compiling W7500x_wdt.c...
+compiling W7500x_wztoe.c...
+compiling W7500x_crg.c...
+compiling W7500x_rng.c...
+compiling W7500x_dma.c...
+compiling socket.c...
+compiling wizchip_conf.c...
+compiling W7500x_miim.c...
+compiling dhcp.c...
+compiling dns.c...
+compiling loopback.c...
+..\..\ioLibrary\Application\loopback\loopback.c(234): warning:  #177-D: variable "sentsize" was declared but never referenced
+     uint16_t size = 0, sentsize=0;
+..\..\ioLibrary\Application\loopback\loopback.c: 1 warning, 0 errors
+compiling dhcp_cb.c...
+compiling W7500x_it.c...
+compiling retarget.c...
+compiling main.c...
+compiling W7500x_board.c...
+compiling seg.c...
+compiling ConfigData.c...
+compiling segcp.c...
+src\Configuration\segcp.c(225): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                if(!strncmp((char *)pmsg, *pcmd, strlen(*pcmd))) break;
+src\Configuration\segcp.c(225): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                if(!strncmp((char *)pmsg, *pcmd, strlen(*pcmd))) break;
+src\Configuration\segcp.c(267): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+                strcpy(param, (uint8_t*)&pmsg[2]);
+src\Configuration\segcp.c(267): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                strcpy(param, (uint8_t*)&pmsg[2]);
+src\Configuration\segcp.c(295): warning:  #144-D: a value of type "uint8_t *" cannot be used to initialize an entity of type "char *"
+        char * trep = segcp_rep;
+src\Configuration\segcp.c(315): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+        treq = strtok(segcp_req, SEGCP_DELIMETER);
+src\Configuration\segcp.c(315): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+        treq = strtok(segcp_req, SEGCP_DELIMETER);
+src\Configuration\segcp.c(324): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                        param_len = strlen(param);
+src\Configuration\segcp.c(683): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param,"%ld", &tmp_long);
+src\Configuration\segcp.c(688): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param,"%ld", &tmp_long);
+src\Configuration\segcp.c(693): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param,"%ld", &tmp_long);
+src\Configuration\segcp.c(796): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                                sscanf(param, "%s", &dev_config->module_name);
+src\Configuration\segcp.c(796): warning:  #181-D: argument is incompatible with corresponding format string conversion
+                                                                sscanf(param, "%s", &dev_config->module_name);
+src\Configuration\segcp.c(801): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param,"%ld", &tmp_long);
+src\Configuration\segcp.c(806): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param,"%ld", &tmp_long);
+src\Configuration\segcp.c(823): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                        else strcpy(dev_config->options.dns_domain_name, param);
+src\Configuration\segcp.c(828): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param, "%d", &tmp_int);
+src\Configuration\segcp.c(828): warning:  #181-D: argument is incompatible with corresponding format string conversion
+                                                sscanf(param, "%d", &tmp_int);
+src\Configuration\segcp.c(866): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param, "%ld", &tmp_long);
+src\Configuration\segcp.c(871): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param, "%ld", &tmp_long);
+src\Configuration\segcp.c(876): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param, "%d", &tmp_int);
+src\Configuration\segcp.c(876): warning:  #181-D: argument is incompatible with corresponding format string conversion
+                                                sscanf(param, "%d", &tmp_int);
+src\Configuration\segcp.c(887): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                        sscanf(param,"%x", &tmp_int);
+src\Configuration\segcp.c(887): warning:  #181-D: argument is incompatible with corresponding format string conversion
+                                                        sscanf(param,"%x", &tmp_int);
+src\Configuration\segcp.c(917): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                        else sscanf(param,"%s", &dev_config->options.pw_connect[0]);
+src\Configuration\segcp.c(928): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                        else sscanf(param,"%s", &dev_config->options.pw_search);
+src\Configuration\segcp.c(928): warning:  #181-D: argument is incompatible with corresponding format string conversion
+                                                        else sscanf(param,"%s", &dev_config->options.pw_search);
+src\Configuration\segcp.c(932): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param, "%ld", &tmp_long);
+src\Configuration\segcp.c(955): warning:  #224-D: the format string requires additional arguments
+                                                        ,dev_config->network_info_common.local_ip[2] , dev_config->network_info_common.local_ip[3], (uint16_t)DEVICE_FWUP_PORT);
+src\Configuration\segcp.c(986): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param, "%x", &tmp_int);
+src\Configuration\segcp.c(986): warning:  #181-D: argument is incompatible with corresponding format string conversion
+                                                sscanf(param, "%x", &tmp_int);
+src\Configuration\segcp.c(1015): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param, "%x", &tmp_int);
+src\Configuration\segcp.c(1015): warning:  #181-D: argument is incompatible with corresponding format string conversion
+                                                sscanf(param, "%x", &tmp_int);
+src\Configuration\segcp.c(1058): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+                                                sscanf(param, "%d", &tmp_int);
+src\Configuration\segcp.c(1058): warning:  #181-D: argument is incompatible with corresponding format string conversion
+                                                sscanf(param, "%d", &tmp_int);
+src\Configuration\segcp.c(1127): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+                treq = strtok(NULL, SEGCP_DELIMETER);
+src\Configuration\segcp.c(1174): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+                                                sprintf(trep,"%s%c%c%c%c%c%c\r\n",tbSEGCPCMD[SEGCP_MA],
+src\Configuration\segcp.c(1183): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                                        if((tpar[0] == SEGCP_NULL && dev_config->options.pw_search[0] == 0) || !strcmp(tpar, dev_config->options.pw_search))
+src\Configuration\segcp.c(1185): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                                                memcpy(trep,treq, strlen(tpar)+4);  // "PWxxxx\r\n"
+src\Configuration\segcp.c(1186): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                                                treq += (strlen(tpar) + 4);
+src\Configuration\segcp.c(1187): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                                                trep += (strlen(tpar) + 4);
+src\Configuration\segcp.c(1193): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                                                sendto(SEGCP_UDP_SOCK, segcp_rep, 14+strlen(tpar)+strlen(trep), "\xFF\xFF\xFF\xFF", destport);
+src\Configuration\segcp.c(1193): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                                                sendto(SEGCP_UDP_SOCK, segcp_rep, 14+strlen(tpar)+strlen(trep), "\xFF\xFF\xFF\xFF", destport);
+src\Configuration\segcp.c(1279): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+                                                sprintf(trep,"%s%c%c%c%c%c%c\r\n",tbSEGCPCMD[SEGCP_MA],
+src\Configuration\segcp.c(1288): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                                        if((tpar[0] == SEGCP_NULL && dev_config->options.pw_search[0] == 0) || !strcmp(tpar, dev_config->options.pw_search))
+src\Configuration\segcp.c(1290): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                                                memcpy(trep,treq, strlen(tpar)+4);  // "PWxxxx\r\n"
+src\Configuration\segcp.c(1291): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                                                treq += (strlen(tpar) + 4);
+src\Configuration\segcp.c(1292): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                                                trep += (strlen(tpar) + 4);
+src\Configuration\segcp.c(1294): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                                                send(SEGCP_TCP_SOCK, segcp_rep, 14+strlen(tpar)+strlen(trep));
+src\Configuration\segcp.c(1294): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                                                send(SEGCP_TCP_SOCK, segcp_rep, 14+strlen(tpar)+strlen(trep));
+src\Configuration\segcp.c(1230): warning:  #177-D: variable "i" was declared but never referenced
+        uint16_t i = 0;
+src\Configuration\segcp.c(1355): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                                uart_puts(SEG_DATA_UART, segcp_rep, strlen(segcp_rep));
+src\Configuration\segcp.c(1400): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+        return strlen(buf);
+src\Configuration\segcp.c: 53 warnings, 0 errors
+compiling util.c...
+src\Configuration\util.c(173): warning:  #550-D: variable "str_tmp" was set but never used
+        uint8_t str_tmp[2];
+src\Configuration\util.c(223): warning:  #181-D: argument is incompatible with corresponding format string conversion
+                sscanf(tmp_hexstr, "%x", hexarray++);
+src\Configuration\util.c: 2 warnings, 0 errors
+compiling flashHandler.c...
+compiling storageHandler.c...
+compiling timerHandler.c...
+compiling uartHandler.c...
+compiling deviceHandler.c...
+compiling gpioHandler.c...
+compiling eepromHandler.c...
+compiling i2cHandler.c...
+linking...
+Program Size: Code=41356 RO-data=1624 RW-data=780 ZI-data=12884  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin -o "D:\Wiznet\WIZnet_product\WIZ750JR\Firmware\W7500x_Project_dev_WIZ750Jr_20160215_v3\Projects\S2E_App\obj\W7500x_S2E_App.bin" "D:\Wiznet\WIZnet_product\WIZ750JR\Firmware\W7500x_Project_dev_WIZ750Jr_20160215_v3\Projects\S2E_App\obj\W7500x_S2E_App.axf"
+After Build - User command #2: w7500_s2e_app_gen_production_hex2bin.bat
+D:\Wiznet\WIZnet_product\WIZ750JR\Firmware\W7500x_Project_dev_WIZ750Jr_20160215_v3\Projects\S2E_App>copy /b /y obj\W7500x_S2E_App.bin bin\ 
+        1개 파일이 복사되었습니다.
+D:\Wiznet\WIZnet_product\WIZ750JR\Firmware\W7500x_Project_dev_WIZ750Jr_20160215_v3\Projects\S2E_App>copy /b /y obj\W7500x_S2E_App.hex bin\ 
+        1개 파일이 복사되었습니다.
+D:\Wiznet\WIZnet_product\WIZ750JR\Firmware\W7500x_Project_dev_WIZ750Jr_20160215_v3\Projects\S2E_App>copy /b /y ..\S2E_Boot\bin\W7500x_S2E_Boot.hex + bin\W7500x_S2E_App.hex ..\W7500x_S2E_Production.hex 
+..\S2E_Boot\bin\W7500x_S2E_Boot.hex
+bin\W7500x_S2E_App.hex
+        1개 파일이 복사되었습니다.
+D:\Wiznet\WIZnet_product\WIZ750JR\Firmware\W7500x_Project_dev_WIZ750Jr_20160215_v3\Projects\S2E_App>..\hex2bin.exe ..\W7500x_S2E_Production.hex 
+hex2bin v1.0.4, Copyright (C) 1998 Jacques Pelletier
+checksum extensions Copyright (C) 2004 Rockwell Automation
+Lowest address  = 00000000
+Highest address = 0001197B
+Pad Byte        = FF
+8-bit Checksum = 50
+".\obj\W7500x_S2E_App.axf" - 0 Error(s), 56 Warning(s).
